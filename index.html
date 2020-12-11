@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevDill Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+          <i class="fas fa-moon"></i>
+      </div>
+
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">My Work</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">About Me</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- intro -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+          Hi, I'm <strong>Dylan Banaszak</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">software engineer</p>
+      <img src="img/grizz.png" alt="img" class="intro__img">
+    </section>
+
+        <!-- my services -->
+    <section class="my-services" id='services' >
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Professional</h3>
+          <p>Fulling a team roll to create solutions and full project guidelines.</p>
+        </div>
+
+        <div class="service">
+          <h3> Freelance</h3>
+          <p>Uniquely myself, through creative and agile design lets make your idea come to life together. </p>
+        </div>
+
+        <div class="service">
+          <h3> Consulting</h3>
+          <p>Need project guidance? Front-end or full-stack, I am a strong believer in sharing knowledge and helping each other to succeed.  Reach out in the contact section.</p>
+        </div>
+      </div>
+
+      <a href="img/Dylan Banaszak Resume.pdf" class="btn" download>Resume</a>
+
+    </section>
+
+
+    <!-- About Me -->
+    <section class="about-me" id="services">
+      <h2 class="section__subtitle section__title--about"><strong>Who I am</strong></h2>
+      <p class="section__subtitle section__subtitle--about">Software developer based out of metro Detroit</p>
+
+      <div class="about-me__body">
+        <p></p>
+        <p></p>
+      </div>
+
+      <img src="img/oak.png" alt="" class="about-me__img">
+
+    </section>
+
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">Showcase</h2>
+      <p class="section__subtitle section__subtitle--work">A selection of my favorite projects</p>
+
+      <!--portfolio item-->
+      <div class="portfolio">
+        <!--portfolio item-->
+        <a href="#" class="portfolio__item">
+          <img src="img/tuneup.jpg" alt="" class="portfolio__img">
+        </a>
+
+        <!--portfolio item-->
+        <a href="#" class="portfolio__item">
+          <img src="img/cart.png" alt="" class="portfolio__img">
+        </a>
+
+        <!--portfolio item-->
+        <a href="#" class="portfolio__item">
+          <img src="img/dna.png" alt="" class="portfolio__img">
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- Footer-->
+    <footer class="footer" id= "contact">
+    <a href="mailto:dylanmbanaszak@gmail.com" class="footer__link">dylanmbanaszak@gmail.com</a>
+    <ul class= "social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/dbanaszak13?tab=repositories">
+            <i class="fab fa-github"></i>
+        </a>
+      </li>
+
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/in/dylan-banaszak/">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://oakland.joinhandshake.com/users/2358318">
+            <i class="fas fa-handshake"></i>
+        </a>
+      </li>
+
+    </ul>
+  </footer>
+
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>
